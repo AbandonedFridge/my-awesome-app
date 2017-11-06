@@ -1,0 +1,17 @@
+{ "name": "my-awesome-app"
+, "description": "This Ghost app is awesome!"
+, "version": "0.0.1"
+, "license": "MIT"
+, "repository": {
+    "type": "git"
+  , "url": "https://github.com/unfairSurprisery/my-awesome-app.git"
+  }
+, "dependencies": {
+    "ghost-app": "0.0.2"
+  }
+, "ghost": {
+    "permissions": {
+      "filters": ["prePostsRender"]
+    }
+  }
+}
